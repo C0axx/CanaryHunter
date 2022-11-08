@@ -99,6 +99,21 @@ Url Found:
 MASTER_HOST='gwfrr71nre84bk5gobf3h96ms.canarytokens.com'
 ```
 
+#### Block Canaries OutBound
+Blocks known Canary IPs
+```
+PS C:\> Invoke-BlockCanaries
+
+DisplayName                   : Block All Known Canary IP Addresses
+Enabled                       : True
+Profile                       : Any
+Direction                     : Outbound
+Action                        : Block
+
+Firewall Rule to Block Canary IP Addresses Succesffully Created
+```
+
+
 ### Acknowledgments
 [HackingLZ](https://twitter.com/HackingLZ/) - [Coalmine.py](https://gist.github.com/HackingLZ/0285d248f648f5dd216758c3fbf78c97)
 
